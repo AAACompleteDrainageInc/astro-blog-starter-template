@@ -1,0 +1,37 @@
+# AAA Complete Drainage Inc. - Robots.txt
+# Updated: August 7, 2025
+# Following best practices: Only disallow non-public or duplicate resources
+# Never block essential CSS, JS, or images required by Google for rendering
+
+User-agent: *
+Allow: /
+
+# Allow all CSS, JS, and image files for proper rendering
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /*.css
+Allow: /*.js
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.png
+Allow: /*.gif
+Allow: /*.svg
+Allow: /*.webp
+Allow: /*.ico
+
+# Disallow only non-public or duplicate resources
+Disallow: /admin/
+Disallow: /private/
+Disallow: /test/
+Disallow: /*?print=
+Disallow: /*?debug=
+Disallow: /*?preview=
+Disallow: /temp/
+Disallow: /*.tmp
+
+# Sitemap location
+Sitemap: https://aaacompletedrainage.ca/sitemap.xml
+
+# Crawl-delay to manage server load (optional)
+Crawl-delay: 1
